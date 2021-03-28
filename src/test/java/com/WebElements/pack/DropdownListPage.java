@@ -57,7 +57,7 @@ public class DropdownListPage extends Base{
 				
 				System.out.print(options.get(i));
 
-				if(getText(options.get(i)).equals("4 ")) {
+				if(getText(options.get(i)).equals("4")) {
 
 
 					click(options.get(i));

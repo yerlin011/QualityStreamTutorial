@@ -32,7 +32,7 @@ public class DropdownListTest {
 		
 		pageDDL.signInCase();  
 		
-        assertTrue(pageDDL.dropDownListPassengers().equalsIgnoreCase("4 "));
+        assertTrue(pageDDL.dropDownListPassengers().equalsIgnoreCase("4"));
         assertTrue(pageDDL.dropDownListDeparting().equalsIgnoreCase("Paris"));
 		
 		
